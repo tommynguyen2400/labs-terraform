@@ -17,3 +17,10 @@
         ## dễ giải quyết được những issue, và cải thiện về khả năng giải quyết bảo mật
         ## Immutable infrastructure takes the best advantage of the cloud
         ## Example tool: Terraform,docker,k8s,....
+
+
+# Lifecycle in terraform
+
+# create_before_destroy: tạo resource trước rồi xoá đi cái cũ hơn
+# prevent_destroy: ngăn chặn việc xoá nhầm resource
+# ignored_changes: ngăn chặn việc thay đổi resoure Attribute(specific/all)
